@@ -2,10 +2,10 @@
 May 3rd, 2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare data analysis
 
 ### Description
-Describe what your project is about and what it does
+Look at data from Chicago, Washington, and New York bikeshare programs, with the ability to filter by month and day of the week.
 
 ### Files used
 Include the files used
