@@ -24,7 +24,7 @@ def get_filters():
     city = input('Which city would you like to look at? (Chicago, New York City, or Washington): ').strip().lower()
 
     # get user input for month (all, january, february, ... , june)
-    month = input('What month do you want to filter by? (January, February March, etc... or "all"): ').strip().lower()
+    month = input('What month do you want to filter by? (January, February, March, etc... or "all"): ').strip().lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day = input('What day of the week would you like to filter by? (Monday, Tuesday, etc... or "all"): ').strip().lower()
@@ -70,7 +70,7 @@ def load_data(city, month, day):
 
     read = 'yes'
     lines = 0
-    while read == 'yes':
+    while read == 'yes' and lines < len(df):
         lines += 5
         print(df[lines-5:lines])
         read = input('Would you like to see 5 more lines of data? (yes/no) ').strip().lower()
