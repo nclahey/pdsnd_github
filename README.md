@@ -5,7 +5,7 @@ May 3rd, 2020
 Bikeshare data analysis
 
 ### Description
-Look at data from Chicago, Washington, and New York bikeshare programs, with the ability to filter by month and day of the week.
+Look at data from Chicago, Washington, and New York bikeshare programs, with the ability to filter by city, month, and day of the week.
 
 ### Files used
 bikeshare_2.py
