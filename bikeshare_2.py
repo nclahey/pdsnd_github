@@ -69,7 +69,7 @@ def load_data(city, month, day):
 
     read = 'yes'
     lines = 0
-    while read == 'yes':
+    while read == 'yes' and lines < len(df):
         lines += 5
         print(df[lines-5:lines])
         read = input('Would you like to see 5 more lines of data? (yes/no) ').strip().lower()
