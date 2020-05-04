@@ -12,6 +12,7 @@ weekdays = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
+    (Filtering by month and day are optional.)
 
     Returns:
         (str) city - name of the city to analyze
