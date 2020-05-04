@@ -23,7 +23,7 @@ def get_filters():
     city = input('Which city would you like to look at? (Chicago, New York City, or Washington): ').strip().lower()
 
     # get user input for month (all, january, february, ... , june)
-    month = input('What month do you want to filter by? (January, February March, etc... or "all"): ').strip().lower()
+    month = input('What month do you want to filter by? (January, February, March, etc... or "all"): ').strip().lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day = input('What day of the week would you like to filter by? (Monday, Tuesday, etc... or "all"): ').strip().lower()
